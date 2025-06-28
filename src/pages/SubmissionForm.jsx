@@ -7,9 +7,12 @@ const SubmissionForm = () => {
     debutDate: '',
     channelUrl: '',
     description: '',
+    x: '',
+    youtube: '',
+    tiktok: '',
+    otherLinks: '',
     socialLinks: {
       twitter: '',
-      youtube: '',
       pixiv: '',
     },
   });
@@ -24,6 +27,10 @@ const SubmissionForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    2 hours ago
+    25 minutes ago
+    3 minutes ago
+    
     // 仮の送信処理
     console.log('送信データ:', formData);
     // 実際はAPIに送信する
